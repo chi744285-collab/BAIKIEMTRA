@@ -1,0 +1,110 @@
+.dautrang {
+    height: 100px;
+    width: 100px;
+}
+.dautrang img {
+    width: 200px;
+}
+.col-sm-3, .col-sm-6 {
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.box img {
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+}
+
+.box h3 {
+    color: #b40000;
+    margin-top: 10px;
+}
+
+.box button {
+    padding: 8px 15px;
+    background: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.banner {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.sp-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.sp-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.sp-brand {
+    color: #b40000;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.sp-type {
+    color: #444;
+}
+
+.sp-old {
+    text-decoration: line-through;
+    color: #777;
+    margin-right: 8px;
+}
+
+.sp-new {
+    color: #d40000;
+    font-weight: bold;
+}
+
+.sp-btn {
+    margin-top: 10px;
+    background: #efefef;
+    padding: 8px 15px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 18px;
+    margin-right: 5px;
+}
+@media (max-width: 768px) {
+
+    .row {
+        flex-direction: column;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .sp-img {
+        height: 150px;
+    }
+}
+
+
+
